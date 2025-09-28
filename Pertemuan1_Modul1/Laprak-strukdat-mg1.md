@@ -191,13 +191,11 @@ int main() {
 ### Output Unguided 1 :
 
 ##### Output 1
-![Screenshot Output Unguided 1_1](https://github.com/(username github kalian)/(nama repository github kalian)/blob/main/(path folder menyimpan screenshot output)/(nama file screenshot output).png)
-
-contoh :
-![Screenshot Output Unguided 1_1](https://github.com/DhimazHafizh/2311102151_Muhammad-Dhimas-Hafizh-Fathurrahman/blob/main/Pertemuan1_Modul1/Output-Unguided1-1.png)
+![Screenshot Output Unguided 1_1](https://github.com/ameliacndr10/103112400140_Amelia-Candradewi/blob/main/Pertemuan1_Modul1/Output-Unguided1-1.png)
 
 ##### Output 2
-![Screenshot Output Unguided 1_2](https://github.com/(username github kalian)/(nama repository github kalian)/blob/main/(path folder menyimpan screenshot output)/(nama file screenshot output).png)
+![Screenshot Output Unguided 1_2](https://github.com/ameliacndr10/103112400140_Amelia-Candradewi/blob/main/Pertemuan1_Modul1/Output-Unguided1-2.png)
+
 
 penjelasan unguided 1 
 Membuat code dari C++ terkait penjumlahan, pengurangan, pembagian dan modulus.
@@ -248,13 +246,10 @@ int main() {
 ### Output Unguided 2 :
 
 ##### Output 1
-![Screenshot Output Unguided 2_1](https://github.com/(username github kalian)/(nama repository github kalian)/blob/main/(path folder menyimpan screenshot output)/(nama file screenshot output).png)
-
-contoh :
-![Screenshot Output Unguided 2_1](https://github.com/DhimazHafizh/2311102151_Muhammad-Dhimas-Hafizh-Fathurrahman/blob/main/Pertemuan1_Modul1/Output-Unguided2-1.png)
+![Screenshot Output Unguided 2_1](https://github.com/ameliacndr10/103112400140_Amelia-Candradewi/blob/main/Pertemuan1_Modul1/Output-Unguided2-1.png)
 
 ##### Output 2
-![Screenshot Output Unguided 2_2](https://github.com/(username github kalian)/(nama repository github kalian)/blob/main/(path folder menyimpan screenshot output)/(nama file screenshot output).png)
+![Screenshot Output Unguided 2_2](https://github.com/ameliacndr10/103112400140_Amelia-Candradewi/blob/main/Pertemuan1_Modul1/Output-Unguided2-2.png)
 
 penjelasan unguided 2
 Membuat code dari C++ terkait apabila input angka, outputnya bentuk tulisan dari angka tersebut.
@@ -304,15 +299,11 @@ int main() {
 }
 ```
 ### Output Unguided 3 :
-
-##### Output 1
-![Screenshot Output Unguided 3_1](https://github.com/(username github kalian)/(nama repository github kalian)/blob/main/(path folder menyimpan screenshot output)/(nama file screenshot output).png)
-
-contoh :
-![Screenshot Output Unguided 3_1](https://github.com/DhimazHafizh/2311102151_Muhammad-Dhimas-Hafizh-Fathurrahman/blob/main/Pertemuan1_Modul1/Output-Unguided3-1.png)
+##### Output 2
+![Screenshot Output Unguided 3_1](https://github.com/ameliacndr10/103112400140_Amelia-Candradewi/blob/main/Pertemuan1_Modul1/Output-Unguided3-1.png)
 
 ##### Output 2
-![Screenshot Output Unguided 3_2](https://github.com/(username github kalian)/(nama repository github kalian)/blob/main/(path folder menyimpan screenshot output)/(nama file screenshot output).png)
+![Screenshot Output Unguided 3_2](https://github.com/ameliacndr10/103112400140_Amelia-Candradewi/blob/main/Pertemuan1_Modul1/Output-Unguided3-2.png)
 
 penjelasan unguided 3
 Membuat code dari C++ terkait dapat memberikan input dan output mengecil dan ditengahnya *
