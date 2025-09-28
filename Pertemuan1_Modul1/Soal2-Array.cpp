@@ -6,8 +6,10 @@ int main() {
     string arr[] = {"nol", "satu", "dua", "tiga", "empat","lima","enam","tujuh","delapan","sembilan"};
     cout << "Masukkan angka:";
     cin >> i;
-
-    if (i < 0 || i>99 ) {
+    
+    if (i==100){
+        cout << "seratus";
+    }else if (i < 0 || i>99 ) {
         cout << "Masukkan angka harus 0-99";
     }else if (i<9) {
         cout << arr[i];
@@ -24,4 +26,6 @@ int main() {
             cout << arr[sisa];
         }
     }
+    
+
 }
