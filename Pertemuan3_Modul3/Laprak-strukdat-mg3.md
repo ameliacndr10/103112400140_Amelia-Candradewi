@@ -205,7 +205,7 @@ float nilaiAkhir(mahasiswa m);
 ![Screenshot Output Unguided 1_1](https://github.com/ameliacndr10/103112400140_Amelia-Candradewi/blob/main/Pertemuan3_Modul3/Output-Unguided1-1.png)
 
 ##### Output 2
-![Screenshot Output Unguided 1_1](https://github.com/ameliacndr10/103112400140_Amelia-Candradewi/blob/main/Pertemuan3_Modul3/Output-Unguided1-2.png)
+![Screenshot Output Unguided 1_2](https://github.com/ameliacndr10/103112400140_Amelia-Candradewi/blob/main/Pertemuan3_Modul3/Output-Unguided1-2.png)
 
 penjelasan unguided 1 
 kita akan membuat program yg didalamnya dapat menyimpan data mahasiswa max.10 kedalam sebua array yg diisi nama, nim, uts, uas,tugas dan nilai akhir
@@ -302,7 +302,7 @@ float nilaiAkhir(mahasiswa m);
 ### Output Unguided 2 :
 
 ##### Output 1
-![Screenshot Output Unguided 1_1](https://github.com/ameliacndr10/103112400140_Amelia-Candradewi/blob/main/Pertemuan3_Modul3/Output-Unguided2.png)
+![Screenshot Output Unguided 2](https://github.com/ameliacndr10/103112400140_Amelia-Candradewi/blob/main/Pertemuan3_Modul3/Output-Unguided2.png)
 
 penjelasan singkat guided 2
 langkah pertama : kita harus memisahkan deklarasi tipe,variabel kedalam file.h
@@ -417,7 +417,7 @@ int main() {
 ### Output Unguided 3 :
 
 ##### Output 1
-![Screenshot Output Unguided 1_1](https://github.com/ameliacndr10/103112400140_Amelia-Candradewi/blob/main/Pertemuan3_Modul3/Output-Unguided-3.png)
+![Screenshot Output Unguided 1_1](https://github.com/ameliacndr10/103112400140_Amelia-Candradewi/blob/main/Pertemuan3_Modul3/Output-Unguided3.png)
 
 penjelasan unguided 3
 kita akan membuat program menampilkan isi dari 2 array sblm ditukar dan menampilkan 2 array yg sudah ditukar, membuat 2 pinter dan menampilkan sebelum ditukar dan setelah ditukar
