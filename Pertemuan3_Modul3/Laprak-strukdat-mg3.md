@@ -59,6 +59,7 @@ langkah 5: dan akan ter-output hasil rata-rata nya
 ### 2. ADT
 
 ### pelajaran.h
+```C++
 
 #ifndef PELAJARAN_H
 #define PELAJARAN_H
@@ -76,22 +77,25 @@ pelajaran create_pelajaran(string namaMapel, string kodepel);
 void tampil_pelajaran(pelajaran pel);
 
 #endif
-
+```
 ### pelajaran.cpp
+```C++
 #include "pelajaran.h"
 pelajaran create_pelajaran(string namaMapel, string kodepel) {
     pelajaran p;
-    p.namaMapel = namaMapel;  //parameter lgsg dimasukin ke struct
+    p.namaMapel = namaMapel;  
     p.kodeMapel = kodepel;
     return p;
 }
 
-void tampil_pelajaran(pelajaran pel) { //pemanggilan menggunakan pel
+void tampil_pelajaran(pelajaran pel) { 
     cout << "nama pelajaran : " << pel.namaMapel << endl;
     cout << "nilai : " << pel.kodeMapel << endl;
 }
+```
 
 ### main.cpp
+```C++
 #include <iostream>
 #include "pelajaran.h"
 using namespace std;
@@ -105,6 +109,7 @@ int main() {
 
     return 0;
 }
+```
 
 penjelasan singkat guided 2
 langkah pertama : kita harus memisahkan deklarasi tipe,variabel kedalam file.h
@@ -131,8 +136,8 @@ lalu, Memanggil fungsi yang didefinisikan di pelajaran.h untuk menampilkan isi o
 
 ### 1. Buat program yang dapat menyimpan data mahasiswa (max. 10) ke dalam sebuah array dengan field nama, nim, uts, uas, tugas, dan nilai akhir. Nilai akhir diperoleh dari FUNGSI dengan rumus 0.3*uts+0.4*uas+0.3*tugas.
 
-```mahasiswa.h
-
+### mahasiswa.h
+```C++
 #ifndef MAHASISWA
 #define MAHASISWA
 
@@ -145,9 +150,10 @@ struct mahasiswa{
     float tugas;
     float nilaiAkhir;
 };
+```
 
-```mahasiswa.cpp
-
+### mahasiswa.cpp
+```C++
 #include <iostream>
 #include "mahasiswa.h"
 
@@ -167,9 +173,10 @@ void inputMhs(mahasiswa &m){
 float nilaiAkhir(mahasiswa m){
     return (0.3*m.uts + 0.4*m.uas + 0.3*m.tugas);
 }
+```
 
-```main.cpp
-
+### main.cpp
+```C++
 #include <iostream>
 #include "mahasiswa.h"
 
@@ -231,8 +238,8 @@ lalu, buat cout apabila user input "tidak" maka akan berhenti programnya. apabil
 ### 2. 
 ![Screenshot soal.2](https://github.com/ameliacndr10/103112400140_Amelia-Candradewi/blob/main/Pertemuan3_Modul3/soal.2.png)
 
-```mahasiswa.h
-
+### mahasiswa.h
+```C++
 #ifndef MAHASISWA
 #define MAHASISWA
 
@@ -245,9 +252,10 @@ struct mahasiswa{
     float tugas;
     float nilaiAkhir;
 };
+```
 
-```mahasiswa.cpp
-
+### mahasiswa.cpp
+```C++
 #include <iostream>
 #include "mahasiswa.h"
 
@@ -267,9 +275,10 @@ void inputMhs(mahasiswa &m){
 float nilaiAkhir(mahasiswa m){
     return (0.3*m.uts + 0.4*m.uas + 0.3*m.tugas);
 }
+```
 
-```main.cpp
-
+### main.cpp
+```C++
 #include <iostream>
 #include "mahasiswa.h"
 
@@ -330,7 +339,8 @@ lalu, Memanggil fungsi yang didefinisikan di pelajaran.h untuk menampilkan isi o
 -fungsi/prosedur yang akan menukarkan isi dari 2 array integer 2D pada posisi tertentu
 -fungsi/prosedur yang akan menukarkan isi dari variabel yang ditunjuk oleh 2 buah pointer
 
-```array.h
+### array.h
+```C++
 #ifndef ARRAY
 #define ARRAY
 
@@ -340,8 +350,10 @@ void tukarArr(int arrA[UKURAN][UKURAN], int arrB[UKURAN][UKURAN]);
 void tukarPtr(int *x, int *y);
 
 #endif
+```
 
-```array.cpp
+### array.cpp
+```C++
 #include <iostream>
 #include "array.h"
 using namespace std;
@@ -371,8 +383,10 @@ void tukarPtr(int *x, int *y) {
     *x = *y;
     *y = temp;
 }
+```
 
-``` main.cpp
+### main.cpp
+```C++
 #include <iostream>
 #include "array.h"
 
