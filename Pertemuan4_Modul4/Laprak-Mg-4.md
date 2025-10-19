@@ -17,7 +17,6 @@ Lalu, Insert Single linked list adalah Penyisipan setelah simpul tertentu pada p
 
 ### 1. Insert Single linked list
 
-
 ###list.h
 ```C++
 #ifndef LIST_H
@@ -595,7 +594,15 @@ buat int main(), isi nya List L, address P1,P2,P3,P4,P5 = 0, CreateList(L)
 
 buat dummy untuk alokasi nilai nya, dan panggil alokasi, lalu, insertFirst(L,address), lalu, printInfo(L).
 
-### 2. (isi dengan soal unguided 2)
+### 2.Dari soal Latihan pertama, lakukan penghapusan node 9 menggunakan deleteFirst(), node
+2 menggunakan deleteLast(), dan node 8 menggunakan deleteAfter(). Kemudian tampilkan
+jumlah node yang tersimpan menggunakan nbList() dan lakukan penghapusan seluruh
+node menggunakan deleteList().
+Output yang diharapkan :
+12 0
+Jumlah node : 2
+- List Berhasil Terhapus –
+Jumlah node : 0
 
 ###Singlylist.h
 ```C++
