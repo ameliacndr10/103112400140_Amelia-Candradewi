@@ -594,10 +594,7 @@ buat int main(), isi nya List L, address P1,P2,P3,P4,P5 = 0, CreateList(L)
 
 buat dummy untuk alokasi nilai nya, dan panggil alokasi, lalu, insertFirst(L,address), lalu, printInfo(L).
 
-### 2.Dari soal Latihan pertama, lakukan penghapusan node 9 menggunakan deleteFirst(), node
-2 menggunakan deleteLast(), dan node 8 menggunakan deleteAfter(). Kemudian tampilkan
-jumlah node yang tersimpan menggunakan nbList() dan lakukan penghapusan seluruh
-node menggunakan deleteList().
+### 2.Dari soal Latihan pertama, lakukan penghapusan node 9 menggunakan deleteFirst(), node 2 menggunakan deleteLast(), dan node 8 menggunakan deleteAfter(). Kemudian tampilkan jumlah node yang tersimpan menggunakan nbList() dan lakukan penghapusan seluruh node menggunakan deleteList().
 Output yang diharapkan :
 12 0
 Jumlah node : 2
@@ -848,5 +845,5 @@ Akses: Node pertama disebut head , yang merupakan titik masuk untuk mengakses da
 Keunggulan: Keunggulan utama linked list adalah kemampuannya untuk mengatasi perubahan ukuran secara dinamis, memungkinkan penambahan atau penghapusan elemen dengan mudah tanpa mempengaruhi elemen lain.
 
 ## Referensi
-[1] A. Faizul Akabar. (2023) https://terapan-ti.vokasi.unesa.ac.id/post memahami-konsep-dan-jenis-jenis-linked-list-dalam-struktur-data
+[1] A. Faizul Akabar. (2023) https://terapan-ti.vokasi.unesa.ac.id/postmemahami-konsep-dan-jenis-jenis-linked-list-dalam-struktur-data
 <br>[2] https://medium.com/@itsanuragjoshi/insert-an-element-in-a-linked-list-data-structures-algorithm-2a41d01afc24 
