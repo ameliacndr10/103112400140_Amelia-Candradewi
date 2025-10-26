@@ -14,7 +14,7 @@ Update pada linked list merupakan update data dalam list yang bisa dilakukan di 
 
 Searching pada linked list merupakan mencari data dalam list bisa dilakukan dengan nilai data, address dan range[3].
 
-implementasi efektif dari Singly Linked List dalam C++—termasuk mekanisme Search by Data dan Update After—menegaskan bahwa struktur ini adalah alat yang fleksibel dan efisien, asalkan batasan aksesnya dipahami dan diterapkan secara tepat dalam konteks pemrograman.
+implementasi efektif dari Singly Linked List dalam C++ termasuk mekanisme Search by Data dan Update After menegaskan bahwa struktur ini adalah alat yang fleksibel dan efisien, asalkan batasan aksesnya dipahami dan diterapkan secara tepat dalam konteks pemrograman.
 
 ## Guided 
 
@@ -578,9 +578,6 @@ int main(){
 ##### Output 3
 ![Screenshot Output Unguided 1_3](https://github.com/ameliacndr10/103112400140_Amelia-Candradewi/blob/main/Pertemuan5_Modul5/Output-Unguided1-3.png)
 
-##### Output 4
-![Screenshot Output Unguided 1_4](https://github.com/ameliacndr10/103112400140_Amelia-Candradewi/blob/main/Pertemuan5_Modul5/Output-Unguided1-4.png)
-
 penjelasan unguided 1 
 Program ini meminta untuk membuat ADT Singly linked list, kemudian mencari elemen dengan info 8 dengan membuat fungsi findElm dan hitunglah jumlah total info seluruh elemen.
 
@@ -979,7 +976,10 @@ int main(){
 ![Screenshot Output Unguided 2_2](https://github.com/ameliacndr10/103112400140_Amelia-Candradewi/blob/main/Pertemuan5_Modul5/Output-Unguided2-2.png)
 
 ##### Output 3
-![Screenshot Output Unguided 1_1](https://github.com/ameliacndr10/103112400140_Amelia-Candradewi/blob/main/Pertemuan5_Modul5/Output-Unguided2-3.png)
+![Screenshot Output Unguided 2_3](https://github.com/ameliacndr10/103112400140_Amelia-Candradewi/blob/main/Pertemuan5_Modul5/Output-Unguided2-3.png)
+
+##### Output 3
+![Screenshot Output Unguided 2_4](https://github.com/ameliacndr10/103112400140_Amelia-Candradewi/blob/main/Pertemuan5_Modul5/Output-Unguided2-4.png)
 
 penjelasan unguided 2
 Program ini Membuat ADT Singlly linked list, lalu buat procedure updateFirst, updateLast, updateAfter, lalu cari prosedur' Buat procedure SearchByData, SearchByAddress, SearchByRange dan lakukan operasi aritmatika penjumlahan, pengurangan dan perkalian
