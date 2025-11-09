@@ -2,7 +2,7 @@
 <p align="center">Amelia Candradewi - 103112400140</p>
 
 ## Dasar Teori
-Pada modul 7 ini kita mmepelajari stack. Stack adalah struktur data yang mengikuti prinsip LIFO (Last In, First Out). Artinya, elemen terakhir yang ditambahkan ke tumpukan adalah elemen pertama yang dikeluarkan. Bayangkan tumpukan seperti tumpukan buku: Anda hanya dapat mengambil buku dari atas[1]
+Pada modul 7 ini kita mempelajari stack. Stack adalah struktur data yang mengikuti prinsip LIFO (Last In, First Out). Artinya, elemen terakhir yang ditambahkan ke tumpukan adalah elemen pertama yang dikeluarkan. Bayangkan tumpukan seperti tumpukan buku: Anda hanya dapat mengambil buku dari atas[1]
 
 ### A. Operasi dasar
 #### 1. Push : Menambahkan elemen ke bagian atas stack
@@ -655,7 +655,7 @@ di int mainnya, panggil fungsi getInputStack, printInfo lalu saat balik stack pa
 
 akan ter-output stack yang dibalik dari inputan user tersebut.
 ## Kesimpulan
-esimpulannya, Stack adalah struktur data fundamental yang beroperasi berdasarkan prinsip LIFO (Last In, First Out), mirip dengan tumpukan fisik di mana hanya elemen teratas yang dapat diakses. Operasi dasarnya mencakup Push (menambah elemen ke atas), Pop (menghapus elemen teratas), Top (melihat elemen teratas tanpa menghapus), dan isEmpty (memeriksa kondisi kosong).
+kesimpulannya, Stack adalah struktur data fundamental yang beroperasi berdasarkan prinsip LIFO (Last In, First Out), mirip dengan tumpukan fisik di mana hanya elemen teratas yang dapat diakses. Operasi dasarnya mencakup Push (menambah elemen ke atas), Pop (menghapus elemen teratas), Top (melihat elemen teratas tanpa menghapus), dan isEmpty (memeriksa kondisi kosong).
 
 ## Referensi
 [1] Rishabh Singh. (2024). https://medium.com/@RobuRishabh/understanding-how-to-use-stack-queues-c-9f1fc06d1c5e 
