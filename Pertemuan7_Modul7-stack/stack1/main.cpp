@@ -26,40 +26,40 @@ int main()
     return 0;
 }
 
-// int main soal 2
-int main() {
-    cout << "------------" << endl;
-    cout << "Hello world!" << endl;
-    Stack S;
-    CreateStack(S);
-    pushAscending(S,3);
-    pushAscending(S,4);
-    pushAscending(S,8);
-    pushAscending(S,2);
-    pushAscending(S,3);
-    pushAscending(S,9);
-    printInfo(S);
-    cout<<"balik stack"<<endl;
-    balikStack(S);
-    printInfo(S);
-    cout << "------------" << endl;
-    return 0;
+// // int main soal 2
+// int main() {
+//     cout << "------------" << endl;
+//     cout << "Hello world!" << endl;
+//     Stack S;
+//     CreateStack(S);
+//     pushAscending(S,3);
+//     pushAscending(S,4);
+//     pushAscending(S,8);
+//     pushAscending(S,2);
+//     pushAscending(S,3);
+//     pushAscending(S,9);
+//     printInfo(S);
+//     cout<<"balik stack"<<endl;
+//     balikStack(S);
+//     printInfo(S);
+//     cout << "------------" << endl;
+//     return 0;
 
-}
+// }
 
-// int main soal 3
-int main(){
-    cout << "------------" << endl;
-    cout << "Hello world!" << endl;
-    Stack S;
-    CreateStack(S);
-    getInputStream(S);
-    printInfo(S);
-    cout<<"balik stack"<< endl;
-    balikStack(S);
-    printInfo(S);
-    cout << "------------" << endl;
-    return 0;
-}
+// // int main soal 3
+// int main(){
+//     cout << "------------" << endl;
+//     cout << "Hello world!" << endl;
+//     Stack S;
+//     CreateStack(S);
+//     getInputStream(S);
+//     printInfo(S);
+//     cout<<"balik stack"<< endl;
+//     balikStack(S);
+//     printInfo(S);
+//     cout << "------------" << endl;
+//     return 0;
+// }
 
 //catatan : jika ingin menjalan kan nomor 1, maka int main nomor 2 dan 3 di coment dulu

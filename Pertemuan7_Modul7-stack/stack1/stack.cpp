@@ -57,14 +57,20 @@ void balikStack( Stack &S){
     // S ke temp1
     while (!isEmpty(S)) {
         push(temp1, pop(S));
+        // S = 9 2 4 3
+        // temp1 = 3 4 2 9
     }
     // temp1 ke temp2
     while (!isEmpty(temp1)) {
         push(temp2, pop(temp1));
+        // temp1 = 3 4 2 9
+        // temp2 = 9 2 4 3
     }
     // temp2 ke S (Stack S sekarang terbalik)
     while (!isEmpty(temp2)) {
         push(S, pop(temp2));
+        // temp2 = 9 2 4 3
+        // S= 3 4 2 9
     }
 }
 
