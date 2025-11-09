@@ -318,6 +318,7 @@ void update(stackTable &s, int posisi){
     if (idx < 0 || idx > s.top)
     {
         cout << "Posisi " << posisi << " tidak valid!" << endl;
+        return;
     }
     
     cout << "Update data posisi ke-" << posisi << endl;
