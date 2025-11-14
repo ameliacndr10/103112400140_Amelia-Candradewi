@@ -1,7 +1,7 @@
 # <h1 align="center">Laporan Praktikum Modul 8 QUEUE</h1>
 <p align="center">Amelia Candradewi - 103112400140</p>
 
-## Dasar Teor
+## Dasar Teori
 queue (teori antrian) adalah kajian tentang perilaku sistem layanan di mana entitas (manusia, data, atau objek lain) datang untuk dilayani, menunggu jika layanan sedang sibuk, dan meninggalkan sistem setelah dilayani. Teori ini mencari cara memahami, mengukur, dan mengoptimalkan efisiensi dari sistem pelayanan yang melibatkan antrean, baik dalam pelayanan publik, industri, maupun teknologi informasi.
 
 Penyisipan antrean dalam C++ terjadi di ujung belakang, dan penghapusan terjadi di ujung depan. Ujung belakang atau elemen belakang adalah elemen terakhir dalam antrean. Bagian depan atau elemen depan adalah elemen pada posisi pertama dalam antrean. Sistem nya menggunakan konsep FIFO (First In First Out), Masuk pertama Keluar pertama.
