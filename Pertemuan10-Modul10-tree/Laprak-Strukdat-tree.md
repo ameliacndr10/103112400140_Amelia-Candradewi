@@ -709,13 +709,13 @@ int main() {
 ### Output Unguided  :
 
 ##### Output soal-1
-![Screenshot Output Unguided 1](https://github.com/ameliacndr10/103112400140_Amelia-Candradewi/blob/main/Pertemuan8_Modul8-queue/Output-Unguided-soal1.png)
+![Screenshot Output-Unguided-soal1](https://github.com/ameliacndr10/103112400140_Amelia-Candradewi/blob/main/Pertemuan10_Modul10-tree/Output-Unguided-soal1.png)
 
 ##### Output soal-2
-![Screenshot Output Unguided 1](https://github.com/ameliacndr10/103112400140_Amelia-Candradewi/blob/main/Pertemuan8_Modul8-queue/Output-Unguided-soal2.png)
+![Screenshot Output-Unguided-soal2](https://github.com/ameliacndr10/103112400140_Amelia-Candradewi/blob/main/Pertemuan10_Modul10-tree/Output-Unguided-soal2.png)
 
 ##### Output soal-3
-![Screenshot Output Unguided 1](https://github.com/ameliacndr10/103112400140_Amelia-Candradewi/blob/main/Pertemuan8_Modul8-queue/Output-Unguided-soal3.png)
+![Screenshot Output-Unguided-soal3](https://github.com/ameliacndr10/103112400140_Amelia-Candradewi/blob/main/Pertemuan10_Modul10-tree/Output-Unguided-soal3.png)
 
 
 ## penjelasan unguided untuk soal 1, 2 dan 3 digabung karena saling berkesinambungan
