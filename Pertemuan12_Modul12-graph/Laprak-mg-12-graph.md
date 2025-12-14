@@ -372,12 +372,12 @@ Guided 1 diberikan source-source code dari graph berupa:
 12. void PrintInfoGraph(Graph G) -> menampilkan graph dna mencetak setiap node yg terhubung melalui edge.
 13. void ResetVisited(Graph &G) -> mengatur ulang status visited semua node digraph kembali ke 0, harus dipaggil sebelum setiap BFS/DFS.
 14. void PrintBFS(Graph G, infoGraph StartInfo) -> Melakukan traversal Breadth-First Search (BFS), yaitu menjelajahi simpul secara lapisan demi lapisan (level terdekat lebih dulu).
-- Menggunakan struktur data Queue (std::queue).*
-- Memulai dari StartNode, memasukkannya ke Queue dan menandai visited = 1.*
-- Selama Queue tidak kosong, keluarkan node, cetak infonya, dan masukkan semua tetangganya yang belum dikunjungi ke dalam Queue (setelah menandai mereka sebagai visited).*
+- Menggunakan struktur data Queue (queue).
+- Memulai dari StartNode, memasukkannya ke Queue dan menandai visited = 1.
+- Selama Queue tidak kosong, keluarkan node, cetak infonya, dan masukkan semua tetangganya yang belum dikunjungi ke dalam Queue (setelah menandai mereka sebagai visited).
 15. void PrintDFS(Graph G,infoGraph StartInfo) -> Melakukan traversal Depth-First Search (DFS), yaitu menjelajahi simpul sejauh mungkin di sepanjang cabang sebelum kembali (backtracking).
-- Menggunakan struktur data Stack (std::stack).*
-- Memulai dari StartNode, memasukkannya ke Stack.*
+- Menggunakan struktur data Stack (stack).
+- Memulai dari StartNode, memasukkannya ke Stack.
 - Selama Stack tidak kosong, keluarkan node. Jika node belum dikunjungi, tandai visited = 1, cetak infonya, dan masukkan semua tetangganya yang belum dikunjungi ke dalam Stack.
 
 Untuk di int main
@@ -644,15 +644,16 @@ int main(){
 }
 ```
 
-### Output Unguided 1 :
+### Output Unguided 1 2 3 (jadi 1) :
 
-##### Output 1
+##### Output 1 2 3 (jadi 1)
 ![Screenshot Output Unguided 1_1](https://github.com/ameliacndr10/103112400140_Amelia-Candradewi/blob/main/Pertemuan12_Modul12-graph/Output-Unguided1.png)
 
 penjelasan unguided 1 2 3 (langsung jadi 1)
 Men-implementasikan ADT Graph, lalu buat prosedur untuk menampilkan hasil penelusur DFS dan menampikan penelusuran DFS. 
 
 NOMOR.1 
+
 1. struct ElmNode yang berisi infoGraph info,int visited,adrEdge firstEdge,adrNode Next.
 2. struct ElmEdge yang berisi  adrNode Node,adrEdge Next.
 3. struct Graph yang berisi adrNode First.
@@ -665,12 +666,14 @@ NOMOR.1
 10. adrNode FindNode(Graph G, infoGraph X) -> untuk mencari aalamat pointer sebuah node berdasarkan info dan inisialisasi dengan variabel baru yaitu nodeBantu. menggunakan while if.
 
 NOMOR.2
+
 11. void PrintDFS(Graph G, adrNode N) -> Melakukan traversal Depth-First Search (DFS), yaitu menjelajahi simpul sejauh mungkin di sepanjang cabang sebelum kembali (backtracking).
 - Menggunakan struktur data Stack (stack).
 - dimuali memanggil risetvisited(G). untuk memastikan semua simpul (visited = 0), lalu node awal (N) dimasukkan ke dalam Stack. Selama Stack belum kosong, node teratas diambil dan dikeluarkan (pop). Logika utamanya terletak pada pengecekan if (nodeBantu->visited == 0): jika node belum dikunjungi, ia ditandai sebagai visited = 1, dan dicetak. Kemudian, program akan mengiterasi semua tetangga dari node tersebut. Setiap tetangga yang belum dikunjungi segera dimasukkan ke dalam Stack
 12. void ResetVisited(Graph &G) -> mengatur ulang status visited semua node digraph kembali ke 0, harus dipaggil sebelum setiap BFS/DFS.
 
 NOMOR.3
+
 13. void PrintBFS(Graph G, infoGraph StartInfo) -> Fungsi PrintBFS(Graph G, adrNode N) menelusuri graf secara Breadth First Search (BFS), yaitu menjelajahi simpul berdasarkan tingkat kedekatan dari node awal. Algoritma ini sangat mengandalkan struktur data Queue (queue), yang beroperasi berdasarkan prinsip FIFO (First-In, First-Out). Setelah memanggil ResetVisited(G) dan menandai node awal (N) sebagai visited = 1, node tersebut dimasukkan ke Queue. Selama Queue tidak kosong, node yang berada di depan dikeluarkan, dicetak, dan semua tetangganya yang belum dikunjungi segera ditandai visited = 1 dan dimasukkan ke belakang Queue. Karena node-node baru ditambahkan ke belakang, mereka hanya akan diproses setelah semua node yang berada pada tingkat (level) yang sama telah selesai dieksplorasi.
 
 ## Kesimpulan
